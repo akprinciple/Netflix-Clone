@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    padding: 0%;
+    margin: 0;
+}
+.container{
+    background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url('netflix\ img.jpg');
+    height: 600px;
+    
+}
+.container img{
+    width: 200px;
+    margin-left: 100px;
+}
+.container button{
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.btn_box{
+    padding: 25px;
+    margin-right: 100px;
+}
+
+.container h1{
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    
+    margin: 10px 0 0;
+}
+.center{
+    text-align: center;
+}
+.input-box{
+    width: 45%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.input{
+    width: 75%;
+    outline: none;
+    background-color: rgba(0,0,0,0.3);
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+::placeholder{
+    color: #fff;
+}
+.w{
+    width: 25%;
+    padding-left: 5px;
+}
+.btn{
+    width: 100%;
+    background-color: red;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-size: large;
+}
+.col{
+    width: 80%;
+    margin: 0 auto 50px;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+.content{
+    background-color: black;
+    color: #fff;
+}
+.col-6{
+    width: 50%;
+}
+.h1{
+    color: #fff;
+    /* text-align: center; */
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.k{
+    text-align: left;
+}
+.border{
+    border-top: 5px solid gray;
+}
+.faq{
+    width: 75%;
+    margin: auto;
+    background-color: rgb(45,45,45);
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.faq img{
+    height: 30px;
+}
+.faq:hover{
+    background-color: rgb(154, 153, 153);
+}
+@media (max-width: 768px) {
+    .container h1,.h1{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-top: 60px; 
+    }
+    .p{
+        font-size: 1rem;
+    }
+    .input-box{ width: 100%; padding: 10px;}
+}
+@media (max-width: 768px) {
+    .container img{
+        width: 150px;
+        margin-left: 10px;
+    }
+    .btn_box{
+        margin-right: 10px;
+    }
+}
+/* @media (max-width: 768px) {
+    .container img{
+        width: 150px;
+        margin-left: 10px;
+    }
+    .btn_box{
+        margin-right: 10px;
+    }
+} */
+@media (max-width: 768px){
+    .col{
+        width: 100%;
+       
+    }
+    .col-6{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
